@@ -8,6 +8,6 @@ class Anagram
   def matches(mixed)
     mixed.select do |words|
       @words.split("").sort
-    
+
   end
 end
