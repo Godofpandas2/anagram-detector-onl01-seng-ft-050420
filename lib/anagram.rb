@@ -5,7 +5,9 @@ class Anagram
     @words = words
   end
 
-  def matches
-
+  def matches(mixed)
+    mixed.select do |words|
+      @words.split("").sort
+    
   end
 end
