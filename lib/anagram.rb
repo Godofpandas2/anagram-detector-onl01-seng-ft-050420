@@ -7,7 +7,7 @@ class Anagram
 
   def match(mixed_word)
     mixed_word.each do |mixed_word|
-      if @words.split(" ").sort == mixed_word.split(" ").sort
+      if @words.split("").sort == mixed_word.split("").sort
         mixed_word
       else
         nil
