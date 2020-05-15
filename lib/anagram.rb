@@ -11,5 +11,7 @@ class Anagram
         mixed_word
       else
         nil
+      end
+    end
   end
 end
