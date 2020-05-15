@@ -6,6 +6,6 @@ class Anagram
   end
 
   def matches(mixed)
-    mixed.select {|mixed_word| @words.split("").sort == mixed_word.split("").sort}
+    mixed.select {|mixed_word| @words.split(" ").sort == mixed_word.split(" ").sort}
   end
 end
